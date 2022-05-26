@@ -102,7 +102,6 @@ SSH into the control node and follow the steps below:
 - Update the **filebeat-config.yml** and **metricbeat-config.yml** file to include host "10.1.0.4:9200" with username "elastic" and password "changeme" under "output.elasticsearch" and update host to "10.1.0.1:5600" under "setup.kibana"
 - Run the playbook, and navigate to **Kibana (ELK GUI interface)** to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
 - *Which file is the playbook?*
 - [filebeat-playbook.yml](Ansible/filebeat-playbook.yml)
 - [metricbeat-playbook.yml](Ansible/metricbeat-playbook.yml)
